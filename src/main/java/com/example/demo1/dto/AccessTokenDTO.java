@@ -1,18 +1,18 @@
 package com.example.demo1.dto;
 
 public class AccessTokenDTO {
-    private String cliend_id;
+    private String client_id;
     private String client_secret;
     private String code;
-    private String redirect_url;
+    private String redirect_uri;
     private String state;
 
-    public String getCliend_id() {
-        return cliend_id;
+    public String getClient_id() {
+        return client_id;
     }
 
-    public void setCliend_id(String cliend_id) {
-        this.cliend_id = cliend_id;
+    public void setClient_id(String client_id) {
+        this.client_id = client_id;
     }
 
     public String getClient_secret() {
@@ -31,12 +31,12 @@ public class AccessTokenDTO {
         this.code = code;
     }
 
-    public String getRedirect_url() {
-        return redirect_url;
+    public String getRedirect_uri() {
+        return redirect_uri;
     }
 
-    public void setRedirect_url(String redirect_url) {
-        this.redirect_url = redirect_url;
+    public void setRedirect_uri(String redirect_uri) {
+        this.redirect_uri = redirect_uri;
     }
 
     public String getState() {
